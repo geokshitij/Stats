@@ -7,7 +7,7 @@ const SummaryPage: React.FC<{ onSelectDist: (id: string) => void, onSelectConcep
     return (
         <div className="max-w-7xl mx-auto">
             <header className="mb-10 text-center">
-              <h2 className="text-4xl font-extrabold text-white tracking-tight">DistriStat</h2>
+              <h2 className="text-4xl font-extrabold text-white tracking-tight">Stats</h2>
               <p className="mt-4 text-lg text-gray-400 italic">"Essentially, all models are wrong, but some are useful." - George Box</p>
             </header>
             
