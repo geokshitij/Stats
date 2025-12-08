@@ -575,7 +575,7 @@ const ConceptDetail: React.FC<{
                     <div className="grid md:grid-cols-2 gap-6">
                         <div className="bg-gray-800/50 p-6 rounded-lg">
                             <h3 className="text-xl font-bold text-cyan-400 mb-3">When to Use It</h3>
-                            <p className="text-gray-300 leading-relaxed">This test is less common in practice than the t-test because we rarely know the true population standard deviation. However, it's a foundational concept and is appropriate when dealing with very large sample sizes (e.g., n > 100), where the sample standard deviation becomes a very reliable estimate of the population standard deviation.</p>
+                            <p className="text-gray-300 leading-relaxed">This test is less common in practice than the t-test because we rarely know the true population standard deviation. However, it's a foundational concept and is appropriate when dealing with very large sample sizes (e.g., n &gt; 100), where the sample standard deviation becomes a very reliable estimate of the population standard deviation.</p>
                         </div>
                         <div className="bg-gray-800/50 p-6 rounded-lg">
                             <h3 className="text-xl font-bold text-cyan-400 mb-3">Key Concepts</h3>
@@ -1295,7 +1295,7 @@ const ConceptDetail: React.FC<{
                                 <h3 className="text-xl font-bold text-cyan-400 mb-3">Extending to s-States and m-Orders</h3>
                                 <p className="text-gray-300 leading-relaxed mb-4">The interactive model above uses a simple 2-state, first-order chain. However, Markov chains can be generalized to model more complex systems:</p>
                                 <ul className="list-disc list-inside text-gray-300 space-y-2 leading-relaxed">
-                                    <li><strong>s-States:</strong> A system can have any number of states (s > 2). For example, a three-state model for weather could be 'Sunny', 'Cloudy', and 'Rainy', with transition probabilities between all three states.</li>
+                                    <li><strong>s-States:</strong> A system can have any number of states (s &gt; 2). For example, a three-state model for weather could be 'Sunny', 'Cloudy', and 'Rainy', with transition probabilities between all three states.</li>
                                     <li><strong>m-Orders:</strong> The Markov property can be extended so that the next state depends on the previous 'm' states. A second-order (m=2) chain's next state depends on the current and the immediately preceding state. This gives the model more 'memory'.</li>
                                 </ul>
                                 <p className="text-gray-300 leading-relaxed mt-4">Estimating transition probabilities involves counting occurrences in the data. The formulas below show how this is done for first and second-order chains.</p>
@@ -1386,7 +1386,7 @@ const ConceptDetail: React.FC<{
                                 </div>
                                  <div>
                                     <dt className="font-semibold text-gray-200">Parameter Estimation:</dt>
-                                    <dd className="text-gray-300 leading-relaxed pl-4">To use the model, we estimate its parameters from a sample. We use the sample mean (x̄) for μ and the <strong>lag-1 sample autocorrelation (r₁)</strong> for φ. The test for H₀: φ=0 helps us determine if the autocorrelation is statistically significant or just random noise. The standard error of φ is approximately 1/√n, so for large samples, we can reject the null if |r₁| > 1.96/√n.</dd>
+                                    <dd className="text-gray-300 leading-relaxed pl-4">To use the model, we estimate its parameters from a sample. We use the sample mean (x̄) for μ and the <strong>lag-1 sample autocorrelation (r₁)</strong> for φ. The test for H₀: φ=0 helps us determine if the autocorrelation is statistically significant or just random noise. The standard error of φ is approximately 1/√n, so for large samples, we can reject the null if |r₁| &gt; 1.96/√n.</dd>
                                 </div>
                             </dl>
                         </div>
