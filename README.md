@@ -1,9 +1,5 @@
 # Environmental Data Analysis
 
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
 An interactive educational tool designed to build intuition for statistical concepts and probability distributions commonly used in environmental sciences, hydrology, and climatology. Based on lectures from CEE 548 Advanced Environment Analysis by Prof. Giuseppe Mascaro at Arizona State University.
 
 This application bridges the gap between abstract mathematical formulas and visual understanding, allowing users to manipulate parameters and see real-time changes in distributions and statistical tests.
