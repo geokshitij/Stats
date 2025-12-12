@@ -123,7 +123,7 @@ const App: React.FC = () => {
         {renderContent()}
          <footer className="mt-8 pt-6 border-t border-gray-700 text-center">
           <p className="text-sm text-gray-500">
-            Disclaimer: While efforts have been made for accuracy, it is intended as an educational tool and not a professional statistical software. This application is based on Lectures of CEE 548 Advanced Environment Analysis by Prof. Giuseppe Mascaro at Arizona State University. All calculations and explanations should be verified with authoritative sources. Please send corrections to geokshitij@gmail.com. Thank you.
+            Disclaimer: While efforts have been made for accuracy, it is intended as an educational tool and not a professional statistical software. This application is based on Lectures of CEE 548 Advanced Environment Analysis by Prof. Giuseppe Mascaro at Arizona State University. All calculations and explanations should be verified with authoritative sources. Please send corrections to geokshitij@gmail.com or open an issue on GitHub. Thank you.
           </p>
         </footer>
       </main>
